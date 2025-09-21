@@ -1,0 +1,32 @@
+.company-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF51001A;
+    padding: 20px 0px;
+}
+.nd-container{
+    margin: 100px 150px;
+}
+.nd-container-img{
+    width: 100%;
+}
+.nd-description{
+    color: #1E1810;
+    font-size: 34px;
+    font-weight: 600;
+
+}
+.cards{
+    border-radius:40px 8px 40px 8px;
+}
+nav ul li{
+    font-weight: 500;
+    color: gray;
+    &:hover{
+        color: #FF5100;
+    }
+}
+.card-div{
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
